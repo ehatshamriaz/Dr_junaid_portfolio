@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>Responsive Portfolio Website</title>
+        <title>Portfolio</title>
         <!-- Fonts -->
        <link rel="stylesheet" href="../../template/assets/fonts/unicons/css/line.css">
         <!-- CSS -->
@@ -17,7 +17,7 @@
         <header class="header" id="header">
             <nav class="nav container">
                 <a href="#home" class="nav_logo">
-                    John Doe
+                    Junaid Shahid
                 </a>
 
                 <div class="nav_menu" id="nav-menu">
@@ -28,15 +28,17 @@
                         <li class="nav-item">
                             <a href="#about" class="nav_link">About</a>
                         </li>
+                        
                         <li class="nav-item">
-                            <a href="#skills" class="nav_link">Skills</a>
+                            <a href="#services" class="nav_link">Publications </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#services" class="nav_link">Services</a>
+                            <a href="#portfolio" class="nav_link">Grants & Awards</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#portfolio" class="nav_link">Portfolio</a>
+                            <a href="#academic-services" class="nav_link">Academic Service</a>
                         </li>
+                        
                         <li class="nav-item">
                             <a href="#contact" class="nav_link">Contact Me</a>
                         </li>
@@ -68,10 +70,10 @@
                     </div>
 
                     <div class="home_data">
-                        <h1 class="home_title">Hi, I'am John Doe</h1>
-                        <h3 class="home_subtitle">FullStack Web developer</h3>
+                        <h1 class="home_title">Hi, I'am Muhammad Junaid Shahid Hasni</h1>
+                        <h3 class="home_subtitle">Postdoctoral Research Fellow</h3>
                         <p class="home_description">
-                            High level experience in web design,fornt-en and backend development, producing quality work.
+                            Department of Economics and Management, University of Trento (Italy)
                         </p>
                         <a href="#contact" class="button button--flex">
                             Contact Me <i class="uil uil-message button__icon"></i>
@@ -85,15 +87,24 @@
                         <div class="home_social">
                             <span class="home_social-follow">Follow Me</span>
                             <div class="home_social-links">
-                                <a href="https://www.linkedin.com" target="_blank" class="home_social-icon">
-                                    <i class="uil uil-linkedin-alt"></i>
-                                </a>
-                                <a href="https://www.dribbble.com" target="_blank" class="home_social-icon">
-                                    <i class="uil uil-dribbble"></i>
-                                </a>
-                                <a href="https://www.github.com" target="_blank" class="home_social-icon">
-                                    <i class="uil uil-github-alt"></i>
-                                </a>
+                                 <a href="https://www.linkedin.com/in/muhammad-junaid-shahid-hasni-ph-d-70027330/" target="_blank" title="LinkedIn">
+                                        <img class='profileLinkImg' src="../../template/assets/img/li.png" alt="LinkedIn">
+                                    </a>
+                                      <a href="https://www.researchgate.net/profile/Muhammad-Hasni-3" target="_blank" title="ResearchGate">
+                                        <img class='profileLinkImg'src="../../template/assets/img/rg.png" alt="ResearchGate">
+                                    </a>
+                                    <a href="https://scholar.google.co.uk/citations?hl=en&pli=1&user=Im1T37IAAAAJ" target="_blank" title="Google Scholar">
+                                        <img class='profileLinkImg'src="../../template/assets/img/gs.png" alt="Google Scholar">
+                                    </a>
+                                    <a href="https://orcid.org/my-orcid?orcid=0000-0002-4674-0755" target="_blank" title="ORCID">
+                                        <img class='profileLinkImg'src="../../template/assets/img/ORCID.png" alt="ORCID">
+                                    </a>
+                                    <a href="https://www.scopus.com/authid/detail.uri?authorId=57203861277" target="_blank" title="Scopus">
+                                        <img class='profileLinkImg'src="../../template/assets/img/sc.png" alt="Scopus">
+                                    </a>
+                                    <a href="https://webapps.unitn.it/du/en/Persona/PER0222023/Pubblicazioni" target="_blank" title="University Profile">
+                                        <img class='profileLinkImg'src="../../template/assets/img/uni.png" alt="University Profile">
+                                    </a>
                             </div>
                         </div>
 
@@ -106,20 +117,28 @@
                             </div>
                             <div class="home_social1">
                                 <div class="home_social-link">
-                                    <a href="https://www.linkedin.com" target="_blank" class="home_social-icon">
-                                        <i class="uil uil-linkedin-alt"></i>
+                                    <a href="https://www.linkedin.com/in/muhammad-junaid-shahid-hasni-ph-d-70027330/" target="_blank" title="LinkedIn">
+                                        <img class='profileLinkImg' src="../../template/assets/img/li.png" alt="LinkedIn">
                                     </a>
-                                    <a href="https://www.dribbble.com" target="_blank" class="home_social-icon">
-                                        <i class="uil uil-dribbble"></i>
+                                      <a href="https://www.researchgate.net/profile/Muhammad-Hasni-3" target="_blank" title="ResearchGate">
+                                        <img class='profileLinkImg'src="../../template/assets/img/rg.png" alt="ResearchGate">
                                     </a>
-                                    <a href="https://www.github.com" target="_blank" class="home_social-icon">
-                                        <i class="uil uil-github-alt"></i>
+                                    <a href="https://scholar.google.co.uk/citations?hl=en&pli=1&user=Im1T37IAAAAJ" target="_blank" title="Google Scholar">
+                                        <img class='profileLinkImg'src="../../template/assets/img/gs.png" alt="Google Scholar">
                                     </a>
+                                    <a href="https://orcid.org/my-orcid?orcid=0000-0002-4674-0755" target="_blank" title="ORCID">
+                                        <img class='profileLinkImg'src="../../template/assets/img/ORCID.png" alt="ORCID">
+                                    </a>
+                                    <a href="https://www.scopus.com/authid/detail.uri?authorId=57203861277" target="_blank" title="Scopus">
+                                        <img class='profileLinkImg'src="../../template/assets/img/sc.png" alt="Scopus">
+                                    </a>
+                                    <a href="https://webapps.unitn.it/du/en/Persona/PER0222023/Pubblicazioni" target="_blank" title="University Profile">
+                                        <img class='profileLinkImg'src="../../template/assets/img/uni.png" alt="University Profile">
+                                    </a>
+
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </section>
@@ -134,8 +153,7 @@
 
                  <div class="about_data">
                     <p class="about_description">
-                        FullStack Web developer, with extencive knowledge and years of experience,
-                        working in web technologies and UI/UX design, delivering quality work
+                        My vision is to achieve excellence and leadership in my academic career, including research, teaching, and educational services. I am seeking an Assistant Professor position in Business and Management studies at a well-reputed business school, focusing on Marketing and its allied subjects.
                     </p>
                     <div class="about_info">
                         <div>
@@ -144,178 +162,19 @@
                         </div>
                         <div>
                             <span class="about_info-title">25+</span>
-                            <span class="about_info-name">Completed <br>project</span>
+                            <span class="about_info-name"> <br>PUBLICATIONS</span>
                         </div>
                         <div>
                             <span class="about_info-title">04+</span>
                             <span class="about_info-name">Companies <br>worked</span>
                         </div>
                     </div>
-                    <div class="about_buttons">
-                        <a href="../../template/assets/pdf/johndoe-Cv.pdf" class="button button--flex">
-                            Download CV <i class="uil uil-download-alt button_icon"></i>
-                        </a>
-                    </div>
+                     
                  </div>
                </div>
             </section>
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-              <h2 class="section__title">Skills</h2>
-              <span class="section__subtitle">My technical lever</span>
-
-              <div class="skills_container container grid">
-                <div>
-                    <!--=========== SKILL 1 ============-->
-                    <div class="skills_content skills_open">
-                        <div class="skills_header">
-                            <i class="uil uil-brackets-curly skills_icon"></i>
-
-                            <div>
-                                <h1 class="skills_title">Frontend developer</h1>
-                                <span class="skills_subtitle">More than 4 years</span>
-                            </div>
-
-                            <i class="uil uil-angle-down skills_arrow"></i>
-                        </div>
-                        <div class="skills_list grid">
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">HTML</h3>
-                                    <span class="skills_number">90%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_html"></span>
-                                </div>
-                            </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">CSS</h3>
-                                    <span class="skills_number">80%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_css"></span>
-                                </div>
-                            </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">JavaScript</h3>
-                                    <span class="skills_number">60%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_javascript"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--=========== SKILL 2 ============-->
-                    <div class="skills_content skills_open">
-                        <div class="skills_header">
-                            <i class="uil uil-server-network skills_icon"></i>
-
-                            <div>
-                                <h1 class="skills_title">Backend developer</h1>
-                                <span class="skills_subtitle">More than 7 years</span>
-                            </div>
-
-                            <i class="uil uil-angle-down skills_arrow"></i>
-                        </div>
-                        <div class="skills_list grid">
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">PHP</h3>
-                                    <span class="skills_number">80%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_php"></span>
-                                </div>
-                            </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">Node J6</h3>
-                                    <span class="skills_number">80%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_nodejs"></span>
-                                </div>
-                            </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">Python</h3>
-                                    <span class="skills_number">60%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_python"></span>
-                                </div>
-                            </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">Ruby</h3>
-                                    <span class="skills_number">55%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_ruby"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <!--=========== SKILL 3 ============-->
-                    <div class="skills_content skills_open">
-                        <div class="skills_header">
-                            <i class="uil uil-server-network skills_icon"></i>
-
-                            <div>
-                                <h1 class="skills_title">Designer</h1>
-                                <span class="skills_subtitle">More than 5 years</span>
-                            </div>
-
-                            <i class="uil uil-angle-down skills_arrow"></i>
-                        </div>
-                        <div class="skills_list grid">
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">Figma</h3>
-                                    <span class="skills_number">90%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_figma"></span>
-                                </div>
-                            </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">Sketch</h3>
-                                    <span class="skills_number">85%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_sketch"></span>
-                                </div>
-                            </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">Adobe XD</h3>
-                                    <span class="skills_number">80%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_adobexd"></span>
-                                </div>
-                            </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">Photoshop</h3>
-                                    <span class="skills_number">85%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_photoshop"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-              </div>
-            </section>
+          
 
             <!--==================== QUALIFICATION ====================-->
             <section class="qualification section">
@@ -340,18 +199,52 @@
                       <!--============= QUALIFICATION 1 ===========-->  
                       <div class="qualification_data">
                         <div>
-                            <h3 class="qualification_title">Computer Science</h3>
-                            <span class="qualification_subtitle">Germany-University</span>
+                            <h3 class="qualification_title">Doctor of Philosophy (Economics and Management) </h3>
+                            <span class="qualification_subtitle">The University of Trento, Trento (Italy)</span>
                             <div class="qualificaation_calender">
                                 <i class="uil uil-calender-alt"></i>
-                                2009 - 2014
+                                Oct 2019 – May 2023
                             </div>
+                             <span class="button button--flex button--small button--link services_button">
+                        View More
+                        <i class="uil uil-arrow-right button_icon"></i>
+                    </span>
                         </div>
                         <div>
                             <span class="qualification_rounder"></span>
                             <span class="qualification_line"></span>
                         </div>
+                        
                       </div>
+                      <!--============= view more ===========-->  
+                      
+                      <div class="services_modal ">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">Doctor of Philosophy <br>(Economics and Management) </h4>
+                            <i class="uil uil-times services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>The University of Trento, Trento (Italy)</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p><span class="services_modal-title">Thesis title:</span> Food Labelling and Consumer Decision-Making</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p><span class="services_modal-title">Supervisor:</span> Lucia Savadori (Supervisor), Luigi Mittone (Co-supervisor)</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p><span class="services_modal-title">Funding Agency/Scholarship:</span> Italian government/University of Trento</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
                       <!--============= QUALIFICATION 2 ===========-->  
                       <div class="qualification_data">
                         <div></div>
@@ -362,269 +255,500 @@
                         </div>
 
                         <div>
-                            <h3 class="qualification_title">Web Design</h3>
-                            <span class="qualification_subtitle">Germany-Institute</span>
+                            <h3 class="qualification_title">Master of Science in Management Sciences (Marketing) </h3>
+                            <span class="qualification_subtitle">Riphah International University, Islamabad (Pakistan)</span>
                             <div class="qualificaation_calender">
                                 <i class="uil uil-calender-alt"></i>
-                                2014 - 2017
+                                Sep 2011 – Apr 2013
                             </div>
-                        </div>
-                        
-                      </div>
-                      <!--============= QUALIFICATION 3 ===========-->  
-                      <div class="qualification_data">
-                        <div>
-                            <h3 class="qualification_title">Web Development</h3>
-                            <span class="qualification_subtitle">Germany-Institute</span>
-                            <div class="qualificaation_calender">
-                                <i class="uil uil-calender-alt"></i>
-                                2017 - 2019
-                            </div>
-                        </div>
-                        <div>
-                            <span class="qualification_rounder"></span>
-                            <span class="qualification_line"></span>
-                        </div>
-                      </div>
-                      <!--============= QUALIFICATION 4 ===========-->  
-                      <div class="qualification_data">
-                        <div></div>
-
-                        <div>
-                            <span class="qualification_rounder"></span>
-                            <!--<span class="qualification_line"></span>-->
-                        </div>
-
-                        <div>
-                            <h3 class="qualification_title">Master in UI/UX</h3>
-                            <span class="qualification_subtitle">Germany-Institute</span>
-                            <div class="qualificaation_calender">
-                                <i class="uil uil-calender-alt"></i>
-                                2019 - 2021
-                            </div>
-                        </div>
-                        
-                      </div>
-                    </div>
-                    <!--========== QUALIFICATION CONTENT 2 ==========-->
-                    <div class="qualification_content" data-content id="work">
-                        <!--============= QUALIFICATION 1 ===========-->  
-                        <div class="qualification_data">
-                          <div>
-                              <h3 class="qualification_title">Software Enginner</h3>
-                              <span class="qualification_subtitle">Apple Inc - Germany</span>
-                              <div class="qualificaation_calender">
-                                  <i class="uil uil-calender-alt"></i>
-                                  2016 - 2018
-                              </div>
-                          </div>
-                          <div>
-                              <span class="qualification_rounder"></span>
-                              <span class="qualification_line"></span>
-                          </div>
-                        </div>
-                        <!--============= QUALIFICATION 2 ===========-->  
-                        <div class="qualification_data">
-                          <div></div>
-  
-                          <div>
-                              <span class="qualification_rounder"></span>
-                              <span class="qualification_line"></span>
-                          </div>
-  
-                          <div>
-                              <h3 class="qualification_title">Frontend Developer</h3>
-                              <span class="qualification_subtitle">Apple Inc - Germany</span>
-                              <div class="qualificaation_calender">
-                                  <i class="uil uil-calender-alt"></i>
-                                  2018 - 2020
-                              </div>
-                          </div>
-                          
-                        </div>
-                        <!--============= QUALIFICATION 3 ===========-->  
-                        <div class="qualification_data">
-                          <div>
-                              <h3 class="qualification_title">Ui Designer</h3>
-                              <span class="qualification_subtitle">Figma - Germany</span>
-                              <div class="qualificaation_calender">
-                                  <i class="uil uil-calender-alt"></i>
-                                  2017 - 2019
-                              </div>
-                          </div>
-                          <div>
-                              <span class="qualification_rounder"></span>
-                              <!--<span class="qualification_line"></span>-->
-                          </div>
-                        </div>
-
-                      </div>
-                </div>
-              </div>
-            </section>
-
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-              <h2 class="section__title">Services</h2> 
-              <span class="section__subtitle">What is offer</span> 
-
-              <div class="services_container container grid">
-                <!--============== SERVICES 1 =============-->
-                <div class="services_content">
-                    <div>
-                        <i class="uil uil-web-grid services_icon"></i>
-                        <h3 class="services_title">Ui/Ux <br> Designer</h3>
-                    </div>
-                    <span class="button button--flex button--small button--link services_button">
+                             <!--============= view more ===========-->  
+                       <span class="button button--flex button--small button--link services_button">
                         View More
                         <i class="uil uil-arrow-right button_icon"></i>
-                    </span>
-
-                    <div class="services_modal ">
+                     </span>
+                    
+                        </div>
+                        
+                      </div>
+                      <div class="services_modal ">
                         <div class="services_modal-content">
-                            <h4 class="services_modal-title">UI/UX <br> Designer</h4>
+                            <h4 class="services_modal-title">Master of Science in Management Sciences<br> (Marketing)    </h4>
                             <i class="uil uil-times services_modal-close"></i>
 
                             <ul class="services_modal-services grid">
                                 <li class="services_modal-service">
                                     <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>I develop the user interface</p>
+                                    <p>Riphah International University, Islamabad (Pakistan) - (CGPA: 3.68/4.00) </p>
                                 </li>
                                 <li class="services_modal-service">
                                     <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>Web page development</p>
+                                    <p><span class="services_modal-title">Thesis title:</span> Impact of Internal Branding on Customer-Based Brand Equity (CBBE)</p>
                                 </li>
                                 <li class="services_modal-service">
                                     <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>I create ux element interactions</p>
+                                    <p><span class="services_modal-title">Supervisor:</span> Prof. Dr. Hummayun Naeem (Supervisor)</p>
                                 </li>
                                 <li class="services_modal-service">
                                     <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>I position your company brand.</p>
+                                    <p><span class="services_modal-title">Funding Agency/Scholarship:</span> Worker Welfare Board, Punjab (Pakistan)</p>
                                 </li>
                             </ul>
                         </div>
                     </div>
+                      <!--============= QUALIFICATION 3 ===========-->  
+                      <div class="qualification_data">
+                        <div>
+                            <h3 class="qualification_title">Bachelors in Business Administration – Information Technology Management (BBA – ITM, Hons)</h3>
+                            <span class="qualification_subtitle">International Islamic University, Islamabad (Pakistan)</span>
+                            <div class="qualificaation_calender">
+                                <i class="uil uil-calender-alt"></i>
+                                Aug 2007 – Jul 2011
+                            </div>
+                             <!--============= view more ===========-->  
+                       <span class="button button--flex button--small button--link services_button">
+                        View More
+                        <i class="uil uil-arrow-right button_icon"></i>
+                    </span>
+                        </div>
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            
+                        </div>
+                      </div>
+                    
+                        <div class="services_modal ">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">Bachelors in Business Administration – Information Technology Management (BBA – ITM, Hons) - (CGPA: 3.37/4.00)</h4>
+                            <i class="uil uil-times services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>International Islamic University, Islamabad (Pakistan)</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p> Certificate of Advanced Studies in Economics and Management, awarded by the University of Trento, Italy</p>
+                                </li>
+
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p><span class="services_modal-title">Funding Agency/Scholarship:</span> Worker Welfare Board, Punjab (Pakistan)</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                      </div>
+                    </div>
+                    
+                    <!--========== QUALIFICATION CONTENT 2 ==========-->
+                    <div class="qualification_sections">
+                        <div class="qualification_content" data-content id="work">
+                       
+
+                            <!--============= work 1 ===========-->  
+                            <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Postdoctoral Research Fellow</h3>
+                                <span class="qualification_subtitle">Department of Economics and Management, University of Trento, Italy</span>
+                                <div class="qualificaation_calender">
+                                    <i class="uil uil-calender-alt"></i>
+                                    Oct 2023 – To date
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                                
+                            </div>
+                            
+                            </div>
+                            
+                            <!--============= work 2 ===========-->  
+                            <div class="qualification_data">
+                                <div></div>
+    
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+        
+                                <div>
+                                    <h3 class="qualification_title">Visiting Ph.D. scholar</h3>
+                                    <span class="qualification_subtitle">School of Business and Law, University of Agder, Kristiansand (Norway)</span>
+                                    <div class="qualificaation_calender">
+                                        <i class="uil uil-calender-alt"></i>
+                                        Mar 2022 – Aug 2022
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <!--============= work 3 ===========-->  
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">Visiting Ph.D. scholar</h3>
+                                    <span class="qualification_subtitle">Department of Economics and Management, University of Helsinki, Helsinki (Finland)</span>
+                                    <div class="qualificaation_calender">
+                                        <i class="uil uil-calender-alt"></i>
+                                        Jun 2022 – Jul 2022
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                    <!--<span class="qualification_line"></span>-->
+                                </div>
+                            </div>
+
+                             <!--============= work 4 ===========-->  
+                            <div class="qualification_data">
+                                <div></div>
+    
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+        
+                                <div>
+                                    <h3 class="qualification_title">Lecturer of Marketing</h3>
+                                    <span class="qualification_subtitle">The University of Lahore, Sargodha (Pakistan)</span>
+                                    <div class="qualificaation_calender">
+                                        <i class="uil uil-calender-alt"></i>
+                                        Mar 2015 – Oct 2019
+                                    </div>
+                                </div>
+                            
+                            </div>
+                             <!--============= work 5 ===========-->  
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">Marketing Executive/Admission Officer</h3>
+                                    <span class="qualification_subtitle">Riphah International University, Islamabad (Pakistan)</span>
+                                    <div class="qualificaation_calender">
+                                        <i class="uil uil-calender-alt"></i>
+                                        Nov 2014 – Feb 2015
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                    <!--<span class="qualification_line"></span>-->
+                                </div>
+                            </div>
+                              <!--============= work 6 ===========-->  
+                            <div class="qualification_data">
+                                <div></div>
+    
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+        
+                                <div>
+                                    <h3 class="qualification_title">Assistant Merchandiser</h3>
+                                    <span class="qualification_subtitle">K. M. Ashraf & Sons Private Limited, Sialkot (Pakistan)</span>
+                                    <div class="qualificaation_calender">
+                                        <i class="uil uil-calender-alt"></i>
+                                        Apr 2013 – Aug 2014
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <!--============= work 7 ===========-->  
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">Operation Executive</h3>
+                                    <span class="qualification_subtitle">EAMAS Private Limited, Islamabad (Pakistan)</span>
+                                    <div class="qualificaation_calender">
+                                        <i class="uil uil-calender-alt"></i>
+                                        Apr 2012 – Jun 2012
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                     
+                                    <!--<span class="qualification_line"></span>-->
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                     </div>
+                 
+                </div>
+            </div>
+            </section>
+
+            <!--==================== publications ====================-->
+            <section class="services section" id="services">
+              <h2 class="section__title">PUBLICATIONS</h2> 
+              <span class="section__subtitle">What i have Written</span> 
+
+              <div class=" container grid">
+                <!--============== SERVICES 1 =============-->
+                <div class="services_content">
+                    <div>
+                        
+                        <i class="uil uil-book-open services_icon"></i>
+                        <h3 class="services_title">Journal articles </h3>
+                    </div>
+  <div style="padding: 1rem;">  
+    <ul class="services_modal-services grid">
+    <li class="services_modal-service">
+        <i class="uil uil-clipboard-notes list__icon"></i>
+        <p>Jaziri, D., Rehman, M. A., & Hasni, M. J. S., & Jebril, A. (2025). Food anti-consumption behavior: A systematic review and future research agenda. British Food Journal. (Paper in Press).</p>
+    </li>
+    <li class="services_modal-service">
+        <i class="uil uil-clipboard-notes list__icon"></i>
+        <p>Rafi, A., Roy, S. K., Rehman, M. A., & Hasni, M. J. S. (2025). Impact of multidimensional presence on user well-being in metaverse communities. <a href="https://doi.org/10.1016/j.dss.2024.114382">Decision Support Systems.</a></p>
+    </li>
+    
+    <li class="services_modal-service">
+        <i class="uil uil-clipboard-notes list__icon"></i>
+        <p>Hasni, M. J. S., Mittone, L., & Savadori, L. (2024). The impact of the Health Star Rating front-of-packaging label on preferences for food products. <a href="https://doi.org/10.1108/BFJ-04-2024-0372">British Food Journal.</a></p>
+    </li>
+    
+    <li class="services_modal-service">
+        <i class="uil uil-clipboard-notes list__icon"></i>
+        <p>Hasni, M. J. S., Rehman, M. A., Pontes, N., & Yaqub, M. Z. (2024). Health Star Rating Labels: A systematic review and future research agenda. <a href="https://doi.org/10.1016/j.foodqual.2024.105310">Food Quality and Preference.</a></p>
+    </li>
+    
+    <li class="services_modal-service">
+        <i class="uil uil-clipboard-notes list__icon"></i>
+        <p>Hasni, M. J. S., Konuk, F. A., & Otterbring, T. (2024). Anxious Altruism: Virtue Signaling Mediates the Impact of Attachment Style on Consumers' Green Purchase Behavior and Prosocial Responses. <a href="https://doi.org/10.1007/s10551-024-05734-8">Journal of Business Ethics.</a></p>
+    </li>
+    
+    <li class="services_modal-service">
+        <i class="uil uil-clipboard-notes list__icon"></i>
+        <p>Malodia, S., Dhir, A., Hasni, M. J. S., & Srivastava, S. (2023). Field experiments in marketing research: a systematic methodological review. <a href="https://doi.org/10.1108/EJM-03-2022-0240">European Journal of Marketing.</a></p>
+    </li>
+    
+    <li class="services_modal-service">
+        <i class="uil uil-clipboard-notes list__icon"></i>
+        <p>Attiq, S., Hasni, M. J. S., & Zhang, C. (2022). Antecedents and Consequences of Brand Hate: A Study of Pakistan's Telecommunication Industry. <a href="https://doi.org/10.1108/JCM-04-2021-4615">Journal of Consumer Marketing.</a></p>
+    </li>
+    
+    <li class="services_modal-service">
+        <i class="uil uil-clipboard-notes list__icon"></i>
+        <p>Shahzad, M. F., Lee, M. S., Hasni, M. J. S., & Rashid, Y. (2022). How does addiction of fast‐food turn into anti‐consumption of fast‐food? The mediating role of health concerns. <a href="https://doi.org/10.1108/JTF-09-2021-0220">Journal of Consumer Behaviour.</a></p>
+    </li>
+    
+    <li class="services_modal-service">
+        <i class="uil uil-clipboard-notes list__icon"></i>
+        <p>Hasni, M. J. S., Farrah, M. F., & Adeel, I. (2021). The technology acceptance model revisited: empirical evidence from the tourism industry in Pakistan. <a href="https://doi.org/10.1002/cb.2025">Journal of Tourism Futures.</a></p>
+    </li>
+    
+    <li class="services_modal-service">
+        <i class="uil uil-clipboard-notes list__icon"></i>
+        <p>Attiq, S. Habib, M. D. Kaur, P. Hasni, M. J. S., & Dhir, A. (2021). Drivers of food waste reduction behaviour in the household context. <a href="https://doi.org/10.1016/j.foodqual.2021.104300">Food Quality and Preference.</a></p>
+    </li>
+    
+    <li class="services_modal-service">
+        <i class="uil uil-clipboard-notes list__icon"></i>
+        <p>Naveed, M., Farrah, M. F., & Hasni, M. J. S. (2021). The transformative role of firm information transparency in triggering retail investor's perceived financial well-being. <a href="https://doi.org/10.1108/IJBM-02-2021-0068">International Journal of Bank Marketing.</a></p>
+    </li>
+    
+    <li class="services_modal-service">
+        <i class="uil uil-clipboard-notes list__icon"></i>
+        <p>Farrah, M. F., Hasni, M. J. S., & Khan, G. A. (2018). Mobile-banking adoption: Empirical evidence from the banking sector in Pakistan. <a href="https://doi.org/10.1108/IJBM-10-2017-0215">International Journal of Bank Marketing.</a></p>
+    </li>
+    
+    <li class="services_modal-service">
+        <i class="uil uil-clipboard-notes list__icon"></i>
+        <p>Hasni, M. J. S., Salo, J., Naeem, H., Abbasi, K. S. (2018). Impact of Internal Branding on Customer-based brand equity with mediating effect of Organizational Loyalty: Evidence from retail store sectors of a developing country. <a href="https://doi.org/10.1108/IJRDM-07-2017-0148">International Journal of Retail and Distribution Management.</a></p>
+    </li>
+    
+    
+</ul>
+ 
+  </div>  
+
+
+                     
                 </div>
                 <!--============== SERVICES 2 =============-->
                 <div class="services_content">
                     <div>
-                        <i class="uil uil-web-grid services_icon"></i>
-                        <h3 class="services_title">Frontend <br> Developer</h3>
+                        
+                        <i class="uil uil-edit  services_icon"></i>
+                        <h3 class="services_title">Papers in Review (R&R) </h3>
                     </div>
-                    <span class="button button--flex button--small button--link services_button">
-                        View More
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </span>
-
-                    <div class="services_modal">
-                        <div class="services_modal-content">
-                            <h4 class="services_modal-title">Frontend <br> Developer</h4>
-                            <i class="uil uil-times services_modal-close"></i>
-
-                            <ul class="services_modal-services grid">
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>I develop the user interface</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>Web page development</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>I create ux element interactions</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>I position your company brand.</p>
-                                </li>
-                            </ul>
-                        </div>
+                   <div style="padding: 1rem;">
+                    <ul class="services_modal-services grid">
+                            <li class="services_modal-service">
+                                <i class="uil uil-clipboard-notes list__icon"></i>
+                                <p>The Conditional Effectiveness of Nutri-Score Labels: Engaging System 2 Processing in Consumer Food Choices (Journal of Experimental Psychology: Applied, In Review)</p>
+                            </li>
+                            
+                            <li class="services_modal-service">
+                                <i class="uil uil-clipboard-notes list__icon"></i>
+                                <p>Transformative Services Research and the challenges of different living contexts: Toward community well-being (Journal of Services Marketing, In Review)</p>
+                            </li>
+                            
+                            <li class="services_modal-service">
+                                <i class="uil uil-clipboard-notes list__icon"></i>
+                                <p>Thriving through decent work: A multi-theory framework (Journal of Services Marketing, In Review)</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <!--============== SERVICES 3 =============-->
                 <div class="services_content">
                     <div>
-                        <i class="uil uil-web-grid services_icon"></i>
-                        <h3 class="services_title">Backend <br> Developer</h3>
+                        <i class="uil uil-hourglass services_icon"></i>
+                        <h3 class="services_title">Working Papers</h3>
                     </div>
-                    <span class="button button--flex button--small button--link services_button">
-                        View More
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </span>
-
-                    <div class="services_modal">
-                        <div class="services_modal-content">
-                            <h4 class="services_modal-title">Backend <br> Developer</h4>
-                            <i class="uil uil-times services_modal-close"></i>
-
-                            <ul class="services_modal-services grid">
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>I develop the user interface</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>Web page development</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>I create ux element interactions</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>I position your company brand.</p>
-                                </li>
-                            </ul>
-                        </div>
+                     <div style="padding: 1rem;">
+                    <ul class="services_modal-services grid">
+                        <li class="services_modal-service">
+                            <i class="uil uil-clipboard-notes list__icon"></i>
+                            <p>Enhancing the understanding of consumer well-being in Urban and Rural Environments: A Transformative Service Research Framework (Target journal: Journal of Services Management)</p>
+                        </li>
+                        
+                        <li class="services_modal-service">
+                            <i class="uil uil-clipboard-notes list__icon"></i>
+                            <p>Symbolic vs substantive sustainable business practices: Evidence from SMEs (Target journal: Journal of Business Ethics)</p>
+                        </li>
+                        
+                        <li class="services_modal-service">
+                            <i class="uil uil-clipboard-notes list__icon"></i>
+                            <p>Exploring the Contribution of Sustainable Business Models to Transformative Service Research: Evidence from the Healthcare Sector (Target journal: Journal of Service Research)</p>
+                        </li>
+                        
+                        <li class="services_modal-service">
+                            <i class="uil uil-clipboard-notes list__icon"></i>
+                            <p>HSR Food labelling system and attraction effect (Target journal: Psychology and Marketing)</p>
+                        </li>
+                        
+                        <li class="services_modal-service">
+                            <i class="uil uil-clipboard-notes list__icon"></i>
+                            <p>Food Anti-Consumption Behavior continuum (Target journal: Journal of Consumer Behaviour)</p>
+                        </li>
+                        
+                        <li class="services_modal-service">
+                            <i class="uil uil-clipboard-notes list__icon"></i>
+                            <p>Virtue signalling and Gender stereotype (Target journal: Journal of Consumer Psychology)</p>
+                        </li>
+                    </ul>
                     </div>
                 </div>
                 <!--============== SERVICES 4 =============-->
                 <div class="services_content">
                     <div>
                         <i class="uil uil-web-grid services_icon"></i>
-                        <h3 class="services_title">Branding <br> Designer</h3>
+                        <h3 class="services_title">Conferences </h3>
                     </div>
-                    <span class="button button--flex button--small button--link services_button">
-                        View More
-                        <i class="uil uil-arrow-right button_icon"></i>
-                    </span>
+                    
+                    <div style="padding: 1rem;"> 
+                        <ul class="services_modal-services grid">
+                            <li class="services_modal-service">
+                                <i class="uil uil-clipboard-notes list__icon"></i>
+                                <p>Della Lucia, M., Santini, E., & Hasni, M. J. S. (2024, June 6). Exploring Transformative Service Research: Innovating for Next Generation Challenges through Systematic Literature Review and Bibliometric Analysis. <em>23rd Management International Conference 2024</em>. 4 – 6 June, University of Trento, Trento, Italy. (Presenter)</p>
+                            </li>
+                            
+                            <li class="services_modal-service">
+                                <i class="uil uil-clipboard-notes list__icon"></i>
+                                <p>Della Lucia, M., Santini, E., & Hasni, M. J. S. (2024, June 14). Navigating Transformative Service Research for individual and social well-being: A comprehensive review. <em>Sinergie-SIMA Management Conference</em>. 13 – 14 June 2024, University of Parma, Parma, Italy. (Presenter)</p>
+                            </li>
+                            
+                            <li class="services_modal-service">
+                                <i class="uil uil-clipboard-notes list__icon"></i>
+                                <p>Hasni, M. J. S., & Bastian, B. (2024, November 15). Sustainability in Entrepreneurial Ventures: Balancing Symbolic Engagement and Substantive Implementation. <em>38th Research in Entrepreneurship and Small Business – RENT Conference 2024</em>, 13 – 15 November 2024, Audencia Business School, Atlantic Campus, Nantes, France. (Presenter)</p>
+                            </li>
+                            
+                            <li class="services_modal-service">
+                                <i class="uil uil-clipboard-notes list__icon"></i>
+                                <p>Hasni, M. J. S., & Della Lucia, M. (2024, October 19). The impact of Negative Customer Brand Relationships in Tourism and Hospitality: Key insights from existing research. <em>XXI Italian Society of Marketing (SIM) Conference</em>. IULM University of Milan, 17th – 18th October, 2024. (Presenter)</p>
+                            </li>
+                            
+                            <li class="services_modal-service">
+                                <i class="uil uil-clipboard-notes list__icon"></i>
+                                <p>Hasni, M. J. S., Konuk, F. A., & Otterbring, T. (2024, November 7). Anxious Altruism: Virtue Signaling Mediates the Impact of Attachment Style on Consumers’ Green Purchase Behavior and Prosocial Responses. <em>9th Nordic Retail and Wholesale Conference (NRWC)</em>.</p>
+                            </li>
+                            
+                            <li class="services_modal-service">
+                                <i class="uil uil-clipboard-notes list__icon"></i>
+                                <p>Hasni, M. J. S., Della Lucia, M., & Santini, E. (2025, February 14). Enhancing the understanding of consumer well-being in Urban and Rural Environments: A Transformative Service Research Perspective. <em>American Marketing Association (AMA) Winter Academic Conference 2025</em>, 10 – 16 February 2025, Phoenix, Arizona, USA. (Presenter)</p>
+                            </li>
+                            
+                            <li class="services_modal-service">
+                                <i class="uil uil-clipboard-notes list__icon"></i>
+                                <p>Rana, A. M. A. S., & Hasni, M. J. S. (2025, May 2). Understanding Attitudes towards Artificial Intelligence: The Role of Innovativeness, Perceptions, and Uncertainty. <em>6th Conference on Managing Tourism Across Continents (MTCON)</em>, April 30 – May 3, 2025, İstanbul – Türkiye.</p>
+                            </li>
+                            
+                            <li class="services_modal-service">
+                                <i class="uil uil-clipboard-notes list__icon"></i>
+                                <p>Hasni, M. J. S., Della Lucia, M., & Santini, E. (2025, June 5). Exploring the Contribution of Sustainable Business Models to Transformative Service Research: Evidence from the Healthcare Sector. <em>QUIS19 Conference 2025</em>, 3 – 6 June 2025, Roma Tre University, Rome, Italy. (Presenter)</p>
+                            </li>
+                            
+                            <li class="services_modal-service">
+                                <i class="uil uil-clipboard-notes list__icon"></i>
+                                <p>Hasni, M. J. S., Santini, E., Della Lucia, M., & Lazic, S. (2025). From Purpose to Impact: A Multi-Level Framework for Embedding Human-Centered Values in Service Ecosystems. <em>Sinergie-SIMA Management Conference 2025</em>, 12 – 13 June 2025, University of Genova, Italy. (Presenter)</p>
+                            </li>
+                            
+                            <li class="services_modal-service">
+                                <i class="uil uil-clipboard-notes list__icon"></i>
+                                <p>Bastian, B., & Hasni, M. J. S. (2025, June 23). Sustainable Symbols in Entrepreneurial Ventures: An Exploratory Study. <em>European Academy of Management (EURM) Conference 2025</em>, 22 – 25 June 2025, University of Florence, Italy.</p>
+                            </li>
+                            
+                            <li class="services_modal-service">
+                                <i class="uil uil-clipboard-notes list__icon"></i>
+                                <p>Hasni, M. J. S., Mittone, L., Savadori, L. (2025, July 8). Food purchase intentions with and without the Nutri-Score label: New insights from an experimental study. <em>Academy of Marketing (AM) Annual Conference 2025</em>, 07 – 10 July 2025, University College Cork, Ireland. (Presenter)</p>
+                            </li>
+                            
+                            <li class="services_modal-service">
+                                <i class="uil uil-clipboard-notes list__icon"></i>
+                                <p>Hasni, M. J. S., Bastian, B., Caputo, A., Della Lucia, M., & Bottoni, M. (2025, September 2). Managing Tensions Between Symbolic and Substantive Strategies for Competitive Advantage: Case of Italian SMEs. <em>39th British Academy of Management (BAM) conference 2025</em>, 1st - 5th September 2025, Kent Business School, University of Kent, United Kingdom.</p>
+                            </li>
+                        </ul>
 
-                    <div class="services_modal">
-                        <div class="services_modal-content">
-                            <h4 class="services_modal-title">Branding <br> Designer</h4>
-                            <i class="uil uil-times services_modal-close"></i>
-
-                            <ul class="services_modal-services grid">
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>I develop the user interface</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>Web page development</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>I create ux element interactions</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>I position your company brand.</p>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
+                   
                 </div>
+                 <!--============== SERVICES 5 =============-->
+                <div class="services_content">
+                    <div>
+                        <i class="uil uil-notebooks  services_icon"></i>
+                        <h3 class="services_title">Book Chapters </h3>
+                    </div>
+                    
+                    <div style="padding: 1rem;"> 
+                        <ul class="services_modal-services grid">
+                           
+                                <li class="services_modal-service">
+                                    <i class="uil uil-clipboard-notes list__icon"></i>
+                                    <p>Hasni, M. J. S., Awan, A., & Rather, R. A. (2024). Unveiling Negative Dimensions of Customer-Brand Relationships in Tourism: A Bibliometric Analysis. In <em>Consumer Brand Relationships in Tourism: An International Perspective</em> (pp. 565-592). Cham: Springer Nature Switzerland.</p>
+                                </li>
+                                
+                                <li class="services_modal-service">
+                                    <i class="uil uil-clipboard-notes list__icon"></i>
+                                    <p>Baldan, M., Hasni, M. J. S., Beghetto, V. (2025). Circular Economy in the hospitality and tourism sector: the case of Waste Cooking Oil. <em>Sustainable Business Models: Managing Tourism, Cultural and Creative enterprises, organizations, and ecosystems</em>. Emerald Publishers.</p>
+                                </li>
+                            
+                         </ul>
+
+                    </div>
+                   
+                </div>
+
               </div>
             </section>
 
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
-              <h2 class="section__title">Portfolio</h2>  
+              <h2 class="section__title">Presentations</h2>  
               <span class="section__subtitle">Most recent work</span>
-
+        <!--==================================presentations======================================-->
               <div class="portfolio_container container swiper-container">
                 <div class="swiper-wrapper">
                     <!--============ PORTFOLIO 1 ==============-->
@@ -632,13 +756,13 @@
                         <img src="../../template/assets/img/portfolio1.jpeg" alt="" class="portfolio_img">
 
                         <div class="portfolio_data">
-                            <h3 class="portfolio_title">Modern Website</h3>
+                            <h3 class="portfolio_title">Departmental seminar, University of Trento, Italy (February 2021)</h3>
                             <p class="portfolio_description">
                                 Website adaptable to all devices,with ui description
                                 and animated interactions.
                             </p>
                             <a href="#" class="button button--flex button--small portfolio_button">
-                                Demo 
+                                Details 
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
@@ -648,12 +772,12 @@
                         <img src="../../template/assets/img/portfolio2.jpeg" alt="" class="portfolio_img">
 
                         <div class="portfolio_data">
-                            <h3 class="portfolio_title">POS App</h3>
+                            <h3 class="portfolio_title">Cognitive and Experimental Economics Laboratory (CEEL) workshop on decision-making (3 December 2021)</h3>
                             <p class="portfolio_description">
                                 POS App description
                             </p>
                             <a href="#" class="button button--flex button--small portfolio_button">
-                                Demo 
+                                Details 
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
@@ -663,13 +787,28 @@
                         <img src="../../template/assets/img/portfolio3.jpeg" alt="" class="portfolio_img">
 
                         <div class="portfolio_data">
-                            <h3 class="portfolio_title">Online Store</h3>
+                            <h3 class="portfolio_title">Presented deliverable of our group in the 2nd annual meeting of the PRIN MATCHA project in Padova (October 2024). </h3>
                             <p class="portfolio_description">
                                 Website adaptable to all devices,with ui description
                                 and animated interactions.
                             </p>
                             <a href="#" class="button button--flex button--small portfolio_button">
-                                Demo 
+                                Details 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                     <!--============ PORTFOLIO 4 ==============-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="../../template/assets/img/portfolio2.jpeg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Presented deliverable of our group in the 3rd annual meeting of the iNEST project in Verona (February 2025).</h3>
+                            <p class="portfolio_description">
+                                POS App description
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio_button">
+                                Details 
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
@@ -686,114 +825,311 @@
                 <!--Add Pagination-->
                 <div class="swiper-pagination"></div>
               </div>
-            </section>
+              <!--=====================Research Grants============================================-->
+              <div class="portfolio section">
+              <h2 class="section__title">Research Grants</h2>  
+              <span class="section__subtitle">Most recent work</span>
+               <div class="portfolio_container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--============ PORTFOLIO 1 ==============-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="../../template/assets/img/inest.png" alt="" class="portfolio_img">
 
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Young Researchers</h3>
+                            <p class="portfolio_description">
+                                Part of the team that secured a research grant of amount 40,000 Euros for the “Young Researchers” project in May 2024 for one year.
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio_button">
+                                Details 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+                <!--Add Arrow-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <!--Add Pagination-->
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+              <!--=====================Scholarships=============================================-->
+              <div class="portfolio section">
+              <h2 class="section__title">Scholarships</h2>  
+              <span class="section__subtitle">Most recent work</span>
+              <div class="portfolio_container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--============ PORTFOLIO 1 ==============-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="../../template/assets/img/phd.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Ph.D. scholarship</h3>
+                            <p class="portfolio_description">
+                               Fully funded Ph.D. scholarship by the Italian government to study in Italy.
+                            </p>
+                             
+                        </div>
+                    </div>
+                    <!--============ PORTFOLIO 2 ==============-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="../../template/assets/img/iiu.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Merit scholarship </h3>
+                            <p class="portfolio_description">
+                                Merit scholarship from International Islamic University, Islamabad (Pakistan) two times in the first, third, and fourth semesters of bachelor's degree
+                            </p>
+                             
+                        </div>
+                    </div>
+                    <!--============ PORTFOLIO 3 ==============-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="../../template/assets/img/talent.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Worker Welfare Talent Scholarship </h3>
+                            <p class="portfolio_description">
+                                Fully funded Worker Welfare Talent Scholarship from Worker Welfare Board, Punjab (Pakistan) for the complete Bachelor's and Master's degree
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!--Add Arrow-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <!--Add Pagination-->
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+              <!--=====================Memberships================================================-->
+              <div class="portfolio section">
+              <h2 class="section__title">Memberships</h2>  
+              <span class="section__subtitle">Most recent work</span> 
+              <div class="portfolio_container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--============ PORTFOLIO 1 ==============-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="../../template/assets/img/ama.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">AMA - American Marketing Association (2025)</h3>
+                            <p class="portfolio_description">
+                                Uniting pros with cutting-edge tools, exclusive insights, and a powerhouse network to drive success.
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio_button">
+                                Details 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--============ PORTFOLIO 2 ==============-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="../../template/assets/img/bam.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">BAM - British Academy of Management Membership (2025)</h3>
+                            <p class="portfolio_description">
+                                Where top management minds connect, innovate, and drive business forward through research, collaboration, and thought leadership.
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio_button">
+                                Details 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--============ PORTFOLIO 3 ==============-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="../../template/assets/img/sim.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">SIM - Italian Marketing Society (2025)</h3>
+                            <p class="portfolio_description">
+                                Elevate your marketing game with SIM—Italy’s premier hub for industry trends, elite connections, and game-changing strategies.
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio_button">
+                                Details 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--============ PORTFOLIO 4 ==============-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="../../template/assets/img/sima.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">SIMA - Italian Society of Management (2025)</h3>
+                            <p class="portfolio_description">
+                                SIMA drives Italian management excellence by bridging theory and practice, fostering research, and empowering thought leaders.
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio_button">
+                                Details 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--============ PORTFOLIO 5 ==============-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="../../template/assets/img/aidea.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">AIDEA - Italian Academy of Business Economics (2025)</h3>
+                            <p class="portfolio_description">
+                                AIDEA: Powering Italy’s economic evolution—where groundbreaking research meets industry leadership to redefine business success.
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio_button">
+                                Details 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Add Arrow-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <!--Add Pagination-->
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+            </section>
+            
+            
             <!--==================== PROJECT IN MIND ====================-->
             <section class="project section">
               <div class="project_bg">
                 <div class="project_container container grid">
                     <div class="project_data">
-                        <h2 class="project_title">You have new project</h2>
-                        <p class="project_description">Contact me now and get a 50% discounted</p>
+                        <h2 class="project_title">You have new Research Idea</h2>
+                        <p class="project_description">Contact me now </p>
                         <a href="#contact" class="button button--flex button--white">
                             Contact Me 
                             <i class="uil uil-message project_icon button_icon"></i>
                         </a>
                     </div>
 
-                    <img src="../../template/assets/img/home.png" alt="" class="project_img">
+                    <img src="../../template/assets/img/home2.png" alt="" class="project_img">
                 </div>
               </div>
             </section>
 
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-              <h2 class="section__title">Testimonial</h2>  
-              <span class="section__subtitle">My client saying</span>
+           
+   
 
-              <div class="testimonial_container container swiper-container">
-                <div class="swiper-wrapper">
-                    <!--========= TESTIMONIAL 1 ==========-->
-                    <div class="testimonial_content swiper-slide">
-                        <div class="testimonial_data">
-                            <div class="testimonial_header">
-                                <img src="../../template/assets/img/testimonial1.jpeg" alt="" class="testimonial_img">
+         <section class="academic-services section" id="academic-services">
+    <h2 class="section__title">ACADEMIC SERVICES</h2>  
+    <span class="section__subtitle">My Contributions to Academia</span>
 
-                                <div>
-                                    <h3 class="testimonial_name">Jay Smith</h3>
-                                    <span class="testimonial_client">Client</span>
-                                </div>
-                            </div>
-
-                            <div>
-                                <i class="uil uil-star testimonial_icon-star"></i>
-                                <i class="uil uil-star testimonial_icon-star"></i>
-                                <i class="uil uil-star testimonial_icon-star"></i>
-                                <i class="uil uil-star testimonial_icon-star"></i>
-                                <i class="uil uil-star testimonial_icon-star"></i>
-                            </div>
-                        </div>
-                        <p class="testimonial_description">
-                            I get a good impression,I carry out my project with all the possible
-                            quality and attention and support 24 hours a day.
-                        </p>
-                    </div>
-                    <!--========= TESTIMONIAL 2 ==========-->
-                    <div class="testimonial_content swiper-slide">
-                        <div class="testimonial_data">
-                            <div class="testimonial_header">
-                                <img src="../../template/assets/img/testimonial2.jpg" alt="" class="testimonial_img">
-
-                                <div>
-                                    <h3 class="testimonial_name">John Smith</h3>
-                                    <span class="testimonial_client">Client</span>
-                                </div>
-                            </div>
-                            
-                            <div>
-                                <i class="uil uil-star testimonial_icon-star"></i>
-                                <i class="uil uil-star testimonial_icon-star"></i>
-                                <i class="uil uil-star testimonial_icon-star"></i>
-                                <i class="uil uil-star testimonial_icon-star"></i>
-                                <i class="uil uil-star testimonial_icon-star"></i>
-                            </div>
-                        </div>
-                        <p class="testimonial_description">
-                            I get a good impression,I carry out my project with all the possible
-                            quality and attention and support 24 hours a day.
-                        </p>
-                    </div>
-                    <!--========= TESTIMONIAL 3 ==========-->
-                    <div class="testimonial_content swiper-slide">
-                        <div class="testimonial_data">
-                            <div class="testimonial_header">
-                                <img src="../../template/assets/img/testimonial3.jpeg" alt="" class="testimonial_img">
-
-                                <div>
-                                    <h3 class="testimonial_name">Mike Smith</h3>
-                                    <span class="testimonial_client">Client</span>
-                                </div>
-                            </div>
-                            
-                            <div>
-                                <i class="uil uil-star testimonial_icon-star"></i>
-                                <i class="uil uil-star testimonial_icon-star"></i>
-                                <i class="uil uil-star testimonial_icon-star"></i>
-                                <i class="uil uil-star testimonial_icon-star"></i>
-                                <i class="uil uil-star testimonial_icon-star"></i>
-                            </div>
-                        </div>
-                        <p class="testimonial_description">
-                            I get a good impression,I carry out my project with all the possible
-                            quality and attention and support 24 hours a day.
-                        </p>
-                    </div>
-                    
+    <div class="services__container container grid">
+        <!-- Editorial Services -->
+        <div class="services__content">
+            <div class="services__header">
+                <i class="uil uil-edit-alt services__icon"></i>
+                <h3 class="services__title">Editorial Services</h3>
+            </div>
+            <div class="services__body">
+                <div class="services__item">
+                    <h4 class="services__subtitle">Journal's Editorial Board</h4>
+                    <p class="services__description">
+                        Working as "Editorial Assistant" at the British Food Journal since February 2025.
+                    </p>
                 </div>
-                <!--Add Pagination-->
-                <div class="swiper-pagination swiper-pagination-testimonial"></div>
-              </div>
-            </section>
+                <div class="services__item">
+                    <h4 class="services__subtitle">Reviewer for Journals & Conferences</h4>
+                    <ul class="services__list">
+                        <li><i class="uil uil-check-circle list__icon"></i> Journal of Business Research</li>
+                        <li><i class="uil uil-check-circle list__icon"></i> International Journal of Retail & Distribution Management</li>
+                        <li><i class="uil uil-check-circle list__icon"></i> International Journal of Bank Marketing</li>
+                        <li><i class="uil uil-check-circle list__icon"></i> Journal of Vacation Marketing</li>
+                        <li><i class="uil uil-check-circle list__icon"></i> Food Quality and Preference</li>
+                        <li><i class="uil uil-check-circle list__icon"></i> Academy of Marketing Conference – 2025</li>
+                        <li><i class="uil uil-check-circle list__icon"></i> R&D Conference – 2024</li>
+                        <li><i class="uil uil-check-circle list__icon"></i> EURAM Conference – 2025</li>
+                        <li><i class="uil uil-check-circle list__icon"></i> BAM Conference – 2025</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Thesis Supervision -->
+        <div class="services__content">
+            <div class="services__header">
+                <i class="uil uil-graduation-cap services__icon"></i>
+                <h3 class="services__title">Thesis Supervision & Examination</h3>
+            </div>
+            <div class="services__body">
+                <ul class="services__list">
+                    <li><i class="uil uil-award list__icon"></i> Ph.D. thesis examiner for University of Central Punjab (UCP), Lahore (Pakistan)</li>
+                    <li><i class="uil uil-award list__icon"></i> Supervised research thesis at bachelor and master level at University of Lahore, Sargodha campus (Pakistan)</li>
+                    <li><i class="uil uil-award list__icon"></i> Currently supervising Master's Thesis at Department of Economics and Management, University of Trento (Italy)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Invited Talks -->
+        <div class="services__content">
+            <div class="services__header">
+                <i class="uil uil-microphone services__icon"></i>
+                <h3 class="services__title">Invited Talks</h3>
+            </div>
+            <div class="services__body">
+                <ul class="services__list">
+                    <li><i class="uil uil-presentation-play list__icon"></i> Invited talk with students at University of Management and Technology, Lahore (Pakistan)</li>
+                    <li><i class="uil uil-presentation-play list__icon"></i> Invited talk with teaching faculty of Department of Management Sciences, University of South Asia, Lahore (Pakistan)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Academic Roles -->
+        <div class="services__content">
+            <div class="services__header">
+                <i class="uil uil-briefcase-alt services__icon"></i>
+                <h3 class="services__title">Academic Roles</h3>
+            </div>
+            <div class="services__body">
+                <div class="services__item">
+                    <h4 class="services__subtitle">University of Trento, Italy (Postdoctoral Fellow)</h4>
+                    <ul class="services__list">
+                        <li><i class="uil uil-clipboard-notes list__icon"></i> Working on three projects: National Recovery and Resilience Plan (PNRR), Young Researchers (YRs), and PRIN-MATCHA</li>
+                        <li><i class="uil uil-clipboard-notes list__icon"></i> Key administrative work for Young Researchers project</li>
+                        <li><i class="uil uil-clipboard-notes list__icon"></i> Writing book proposal for Emerald Publishers</li>
+                        <li><i class="uil uil-clipboard-notes list__icon"></i> Admission commission for Master in International Management (MIM) program (2024-2026)</li>
+                        <li><i class="uil uil-clipboard-notes list__icon"></i> Admission commission for European Master in Business Studies (EMBS) program (2025-2026)</li>
+                    </ul>
+                </div>
+                <div class="services__item">
+                    <h4 class="services__subtitle">University of Lahore, Sargodha (Pakistan)</h4>
+                    <ul class="services__list">
+                        <li><i class="uil uil-university list__icon"></i> Department coordinator</li>
+                        <li><i class="uil uil-university list__icon"></i> Departmental Internship & Project Evaluation Committee</li>
+                        <li><i class="uil uil-university list__icon"></i> Departmental exam committee</li>
+                        <li><i class="uil uil-university list__icon"></i> Departmental migration committee</li>
+                        <li><i class="uil uil-university list__icon"></i> Internal Academic Committee (Quality Enhancement Cell)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
@@ -807,7 +1143,7 @@
 
                         <div>
                             <h3 class="contact_title">Call Me</h3>
-                            <span class="contact_subtitle">444-444-444</span>
+                            <span class="contact_subtitle">(+39) 324-0528207 </span>
                         </div>
                     </div>
                     <div class="contact_information">
@@ -815,7 +1151,7 @@
 
                         <div>
                             <h3 class="contact_title">Email</h3>
-                            <span class="contact_subtitle">johndoe@gmail.com</span>
+                            <span class="contact_subtitle">junaidbaloach@yahoo.com <br> muhammad.hasni@unitn.it </span>
                         </div>
                     </div>
                     <div class="contact_information">
@@ -823,7 +1159,7 @@
 
                         <div>
                             <h3 class="contact_title">Location</h3>
-                            <span class="contact_subtitle">Germany-Munich Av.munich #1234</span>
+                            <span class="contact_subtitle">Via San Pio X – 8, 38122, Trento (Italy)</span>
                         </div>
                     </div>
                 </div>
@@ -863,41 +1199,77 @@
           <div class="footer_bg">
             <div class="footer_container container grid">
                 <div>
-                    <h1 class="footer_title">John Doe</h1>
-                    <span class="footer_subtitle">FullStack Web developer</span>
+                    <h1 class="footer_title">Muhammad Junaid Shahid Hasni</h1>
+                    <span class="footer_subtitle">Postdoctoral Research Fellow</span>
                     <p class="footer_subtitle">
-                        High level experience in web design,
-                        front-end and backend development,
-                        producing quality work
+                        Department of Economics and Management, University of Trento (Italy)
                     </p>
                 </div>
                 <ul class="footer_links">
                     <li>
-                        <a href="#services" class="footer_link">Services</a>
+                        <a href="#services" class="footer_link">Home</a>
                     </li>
                     <li>
-                        <a href="#portfolio" class="footer_link">Portfolio</a>
+                        <a href="#portfolio" class="footer_link">Grants & Awards</a>
                     </li>
                     <li>
                         <a href="#contact" class="footer_link">Cantact Me</a>
                     </li>
                 </ul>
+                 
+            
                 <div class="footer_socails">
-                    <a href="https://www.facebook.com" target="_blank" class="footer_social">
-                        <i class="uil uil-facebook-f"></i>
-                    </a>
-                    <a href="https://www.instagram.com" target="_blank" class="footer_social">
-                        <i class="uil uil-instagram"></i>
-                    </a>
-                    <a href="https://www.twitter.com" class="footer_social">
-                        <i class="uil uil-twitter-alt"></i>
-                    </a>
-                </div>
+                    
+              
+              <div class="profile-links">
+                <a href="https://www.linkedin.com/in/muhammad-junaid-shahid-hasni-ph-d-70027330/" target="_blank" title="LinkedIn">
+                    <img src="../../template/assets/img/li.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.researchgate.net/profile/Muhammad-Hasni-3" target="_blank" title="ResearchGate">
+                    <img src="../../template/assets/img/rg.png" alt="ResearchGate">
+                </a>
+                <a href="https://scholar.google.co.uk/citations?hl=en&pli=1&user=Im1T37IAAAAJ" target="_blank" title="Google Scholar">
+                    <img src="../../template/assets/img/gs.png" alt="Google Scholar">
+                </a>
+                <a href="https://orcid.org/my-orcid?orcid=0000-0002-4674-0755" target="_blank" title="ORCID">
+                    <img src="../../template/assets/img/ORCID.png" alt="ORCID">
+                </a>
+                <a href="https://www.scopus.com/authid/detail.uri?authorId=57203861277" target="_blank" title="Scopus">
+                    <img src="../../template/assets/img/sc.png" alt="Scopus">
+                </a>
+                <a href="https://webapps.unitn.it/du/en/Persona/PER0222023/Pubblicazioni" target="_blank" title="University Profile">
+                    <img src="../../template/assets/img/uni.png" alt="University Profile">
+                </a>
+                     </div>
+              </div>
+                  
             </div>
-            <p class="footer_copy">&#169; Share Tutorials. All right reserved</p>
+             <p class="footer_copy">&#169; Designed by Ehatsham Riaz</p>
           </div>
-        </footer>
         
+
+            <style>
+            .profile-links {
+                display: flex;
+                gap: 15px;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+            .profile-links a img {
+                width: 32px;
+                height: 32px;
+                transition: transform 0.3s;
+            }
+            .profile-links a:hover img {
+                transform: scale(1.1);
+            }
+            </style>
+        </footer>
+        <style>
+            .web-profiles a {
+                margin-right: 12px; /* Spacing between links */
+            }
+            </style>
         <!--==================== SCROLL TOP ====================-->
         <a href="#" class="scrollup" id="scroll-up">
           <i class="uil uil-arrow-up scrollup_icon"></i>
